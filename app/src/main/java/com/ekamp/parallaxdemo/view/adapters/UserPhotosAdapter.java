@@ -21,7 +21,7 @@ import java.util.ArrayList;
  */
 public class UserPhotosAdapter extends RecyclerView.Adapter<UserPhotosAdapter.ViewHolder> {
 
-    private ArrayList<UserPhoto> userPhotoArrayList;
+    private final ArrayList<UserPhoto> userPhotoArrayList;
 
     /**
      * Creates an instance of the UserPhotosAdapter.

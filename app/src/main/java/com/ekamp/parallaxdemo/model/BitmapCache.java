@@ -21,7 +21,7 @@ import com.ekamp.parallaxdemo.api.DecodeBitmapTask;
 public class BitmapCache {
 
     private static LruCache<String, Bitmap> bitmapLruCache;
-    public static int LRU_SIZE = (int) Runtime.getRuntime().maxMemory() / 1024;
+    private static final int LRU_SIZE = (int) Runtime.getRuntime().maxMemory() / 1024;
 
     /**
      * Retrieves the Singleton instance of the LRU Bitmap Cache.
@@ -55,26 +55,24 @@ public class BitmapCache {
     /**
      * Loads the Bitmap on a backgrounded thread associated with the String path via the DecodeBitmapTask.
      *
-     * @param imagePath path to image on the current device.
+     * @param imageKey  path to image on the current device.
      * @param imageView view to inflate/populate image.
      */
-    public static void loadBitmap(String imagePath, ImageView imageView) {
-        final String imageKey = imagePath;
-
+    public static void loadBitmap(String imageKey, ImageView imageView) {
         final Bitmap bitmap = getBitmapFromMemCache(imageKey);
         if (bitmap != null) {
             //Cache Hit
             imageView.setImageBitmap(bitmap);
         } else {
             //Cache Miss
-            if (cancelPotentialWork(imagePath, imageView)) {
+            if (cancelPotentialWork(imageKey, imageView)) {
 
                 final DecodeBitmapTask descodeBitmapTask = new DecodeBitmapTask(imageView);
                 final AsyncDrawable asyncDrawable = new AsyncDrawable(Resources.getSystem(),
                         null,
                         descodeBitmapTask);
                 imageView.setImageDrawable(asyncDrawable);
-                descodeBitmapTask.execute(imagePath);
+                descodeBitmapTask.execute(imageKey);
             }
         }
     }

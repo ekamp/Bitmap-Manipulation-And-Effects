@@ -9,18 +9,18 @@
         <dex dex="/Users/erikkamp/Desktop/ParallaxDemo/app/build/intermediates/pre-dexed/debug/classes-bd86f982eaa07fb02a4738c8564835e8221a6da3.jar" />
     </item>
     <item
-        jar="/Users/erikkamp/Desktop/ParallaxDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jar="/Users/erikkamp/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/Users/erikkamp/Desktop/ParallaxDemo/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-ab1a9c13362051af72957b73b402256faa1cf7ca.jar" />
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/erikkamp/Desktop/ParallaxDemo/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-16413f1d3db696a33f1b34151a421db893483ca4.jar" />
     </item>
     <item
-        jar="/Users/erikkamp/Desktop/ParallaxDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jar="/Users/erikkamp/Documents/AndroidDevelopment/Bitmap-Manipulation-And-Effects/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/Users/erikkamp/Desktop/ParallaxDemo/app/build/intermediates/pre-dexed/debug/classes-f77df7afec3591e72daaff49811113569b1dcea9.jar" />
+        <dex dex="/Users/erikkamp/Documents/AndroidDevelopment/Bitmap-Manipulation-And-Effects/app/build/intermediates/pre-dexed/debug/classes-7cbe88b13ec97baa4bb899c6181cec3d750d6d9e.jar" />
     </item>
     <item
         jar="/Users/erikkamp/Desktop/ParallaxDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
@@ -30,11 +30,39 @@
         <dex dex="/Users/erikkamp/Desktop/ParallaxDemo/app/build/intermediates/pre-dexed/debug/classes-948b9184411f4fe44ccdd793e6b1986e1957558d.jar" />
     </item>
     <item
-        jar="/Users/erikkamp/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jar="/Users/erikkamp/Desktop/ParallaxDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/Users/erikkamp/Desktop/ParallaxDemo/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-16413f1d3db696a33f1b34151a421db893483ca4.jar" />
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/erikkamp/Desktop/ParallaxDemo/app/build/intermediates/pre-dexed/debug/classes-f77df7afec3591e72daaff49811113569b1dcea9.jar" />
+    </item>
+    <item
+        jar="/Users/erikkamp/Documents/AndroidDevelopment/Bitmap-Manipulation-And-Effects/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/erikkamp/Documents/AndroidDevelopment/Bitmap-Manipulation-And-Effects/app/build/intermediates/pre-dexed/debug/classes-0826e2a05c95abd4dca027ccd8d61c9ea14beabe.jar" />
+    </item>
+    <item
+        jar="/Users/erikkamp/Documents/AndroidDevelopment/Bitmap-Manipulation-And-Effects/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/erikkamp/Documents/AndroidDevelopment/Bitmap-Manipulation-And-Effects/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-d86f3a2088ae2d84b978bfc0f4cacf028fccfa1e.jar" />
+    </item>
+    <item
+        jar="/Users/erikkamp/Desktop/ParallaxDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/erikkamp/Desktop/ParallaxDemo/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-ab1a9c13362051af72957b73b402256faa1cf7ca.jar" />
+    </item>
+    <item
+        jar="/Users/erikkamp/Documents/AndroidDevelopment/Bitmap-Manipulation-And-Effects/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/Users/erikkamp/Documents/AndroidDevelopment/Bitmap-Manipulation-And-Effects/app/build/intermediates/pre-dexed/debug/classes-d5260dfe9d496479d13a85fdd60f83cef0c90eca.jar" />
     </item>
 
 </items>

@@ -1,7 +1,6 @@
 <resources>
     <!-- General String res -->
     <string name="app_name">ParallaxDemo</string>
-    <string name="action_settings">Settings</string>
 
     <!-- Photo TextView Information -->
     <string name="photo_collection_title">Shadow Pro</string>
