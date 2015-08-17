@@ -24,13 +24,17 @@ Sample Android application showing how to efficently load Bitmaps, create a para
 		ImageView.setImageResource(Bitmap);
 - It is also highly recommended that you store such decoded Bitmaps in a Cache in order to prevent decoding and launching a Task each time you wish to render your image on screen. In this example I use the built in Android LRU Cache.
 - As meantioned above, in this example the Bitmap is further reduced in size through the contraint of its width and height. Reducing the Bitmaps width and height will significently reduce the amount of memory the Bitmap is using. Therefore if you are using thumbnail sized images and your source is large, it is recommended you create a smaller copy of the Bitmap and load that instead of the source.
+
 ###Parallax Effect
 - The parallax effect seen on the main banner image is acheived through the manipulation of the ImageView container's scroll functionality.
 - In order for the main content view to seem faster when scrolling we simply need to listen to the parent's scroll events returned to us from a custom implementation of a ScrollView (ListenableScrollView).
 - Finally we simply just set our container's vertical translation (current vertical position) to the (normal)current scroll position multiplied by our constant scroll factor in this case 0.7f. This will allow for our main content to scroll faster at 100% scroll speed and our ImageView to scroll at 70% scroll speed, making it look like our main content is scrolling past our ImageView.
+
 ###RecyclerView Implementation
 - Very similar to a ListView, the RecyclerView requires an Adapter, ViewHolder for recycling, and a LayoutManager for the arrangement of elements within the view.
+
 ####RecyclerView.Adapter
+
 - The RecyclerView.Adapter like the ListView will take in a list of elements and then ask how to display the elements within its view.
 - Just like the ListView it is very important to understand the concept of what the ViewHolder pattern is :
 	- This pattern very simply holds a reference to the last used view that has scrolled off-screen.
