@@ -1,0 +1,19 @@
+<resources>
+    <!-- General String res -->
+    <string name="app_name">ParallaxDemo</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Photo TextView Information -->
+    <string name="photo_collection_title">Shadow Pro</string>
+    <string name="photo_collection_subtitle">Shadow Box</string>
+    <string name="photo_collection_description">The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown
+        fox jumps over the lazy dog.</string>
+
+    <!-- Photo Collection Button Price -->
+    <string name="photo_collection_price">$0.99</string>
+
+    <!-- Content Descriptions for ImageViews -->
+    <string name="banner_content_description">Banner parallax view used to display a large image.</string>
+    <string name="user_photo_content_description">User photo view used to display small thumbnail images contained within a user\'s gallery.</string>
+
+</resources>

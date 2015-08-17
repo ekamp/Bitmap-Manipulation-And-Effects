@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--button_default_pressed-->
+    <item android:drawable="@drawable/effect_button_state_pressed" android:state_pressed="true" />
+
+    <!--button_default_focused-->
+    <item android:drawable="@drawable/effect_button_state_focused" android:state_focused="true" />
+
+    <!--button_default_disabled-->
+    <item android:drawable="@drawable/effect_button_state_disabled" android:state_enabled="false" />
+
+    <!--button_default-->
+    <item android:drawable="@drawable/effect_button_state_default" />
+
+</selector>

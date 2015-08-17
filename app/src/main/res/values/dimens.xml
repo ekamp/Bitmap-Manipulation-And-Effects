@@ -1,0 +1,20 @@
+<resources>
+    <!-- Screen Margins -->
+    <dimen name="activity_gutter">16dp</dimen>
+    <!-- text_backdrop_height - 40dp offset for the overhang -> 220 - 40 -> 180dp  -->
+    <dimen name="user_photos_recycler_view_vertical_offset">180dp</dimen>
+
+    <!-- Vertical sizing -->
+    <dimen name="text_backdrop_height">220dp</dimen>
+    <dimen name="parallax_image_view_height">320dp</dimen>
+
+    <!-- CardView sizing -->
+    <dimen name="user_photo_vertical">192dp</dimen>
+    <dimen name="user_photo_horizontal">120dp</dimen>
+
+    <!-- Arbitrary Sizing -->
+    <dimen name="arbitrary_width_banner_shape_size">400dp</dimen>
+    <dimen name="arbitrary_user_photos_recycler_view_height">400dp</dimen>
+
+
+</resources>

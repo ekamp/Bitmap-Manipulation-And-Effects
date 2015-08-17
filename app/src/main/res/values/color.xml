@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Effect/Information View Colors -->
+    <color name="effect_backdrop_background">#303643</color>
+    <color name="effect_purchase_button_background_color_default">#546981</color>
+    <color name="effect_purchase_button_background_color_pressed">#3B4A5A</color>
+    <color name="effect_purchase_button_background_color_disabled">#98A5B3</color>
+    <color name="effect_purchase_button_background_color_focused">#4C5E74</color>
+    <color name="effect_information_text_color">#939EAA</color>
+
+    <!-- Banner Colors -->
+    <color name="banner_start_color">#E3F2FD</color>
+    <color name="banner_center_color">#7995A8</color>
+    <color name="banner_end_color">#42A5F5</color>
+</resources>

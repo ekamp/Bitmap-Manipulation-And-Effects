@@ -1,0 +1,86 @@
+<com.ekamp.parallaxdemo.view.custom_views.ListenableScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollable_content_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/content_viewgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/banner_parallax_image_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/banner_parallax_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/parallax_image_view_height"
+                android:contentDescription="@string/banner_content_description"
+                android:scaleType="centerCrop"
+                android:src="@drawable/banner" />
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/photo_collection_information_viewgroup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_backdrop_height"
+            android:layout_below="@+id/banner_parallax_image_container"
+            android:background="@color/effect_backdrop_background">
+
+            <Button
+                android:id="@+id/photo_collection_price_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/activity_gutter"
+                android:background="@drawable/effect_purchase_button_background"
+                android:text="@string/photo_collection_price"
+                android:textColor="@color/effect_information_text_color" />
+
+            <TextView
+                android:id="@+id/photo_collection_title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_gutter"
+                android:text="@string/photo_collection_title"
+                android:textColor="@color/effect_information_text_color"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/photo_collection_subtitle_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/photo_collection_title_text_view"
+                android:layout_marginLeft="@dimen/activity_gutter"
+                android:text="@string/photo_collection_subtitle"
+                android:textColor="@color/effect_information_text_color"
+                android:textSize="@dimen/abc_text_size_menu_material" />
+
+            <TextView
+                android:id="@+id/photo_collection_description_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/photo_collection_subtitle_textview"
+                android:layout_margin="@dimen/activity_gutter"
+                android:text="@string/photo_collection_description"
+                android:textColor="@color/effect_information_text_color"
+                android:textSize="@dimen/abc_text_size_menu_material" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/photo_collection_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/arbitrary_user_photos_recycler_view_height"
+            android:layout_below="@+id/banner_parallax_image_container"
+            android:layout_marginTop="@dimen/user_photos_recycler_view_vertical_offset" />
+
+    </RelativeLayout>
+
+</com.ekamp.parallaxdemo.view.custom_views.ListenableScrollView>
