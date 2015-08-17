@@ -1,7 +1,8 @@
 #Bitmap Manipulation
-
-##Description
 Sample Android application showing how to efficently load Bitmaps, create a parallax effect on an ImageView and implement a RecyclerView image grid.
+
+![Alt text](https://github.com/ekamp/Bitmap-Manipulation-And-Effects/blob/master/sampleScreenOne.png "Sample Screen")
+![Alt text](https://github.com/ekamp/Bitmap-Manipulation-And-Effects/blob/master/sampleScreenTwo.png "Sample Screen")
 
 ##Implementation
 - This application collects 20 photos from the user's device displaying 1 in a large parallax scrolling banner, and 19 in the RecyclerView grid layout.
