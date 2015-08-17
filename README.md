@@ -32,9 +32,6 @@ Sample Android application showing how to efficently load Bitmaps, create a para
 
 ###RecyclerView Implementation
 - Very similar to a ListView, the RecyclerView requires an Adapter, ViewHolder for recycling, and a LayoutManager for the arrangement of elements within the view.
-
-####RecyclerView.Adapter
-
 - The RecyclerView.Adapter like the ListView will take in a list of elements and then ask how to display the elements within its view.
 - Just like the ListView it is very important to understand the concept of what the ViewHolder pattern is :
 	- This pattern very simply holds a reference to the last used view that has scrolled off-screen.
